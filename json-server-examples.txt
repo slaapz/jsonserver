@@ -1,0 +1,30 @@
+GET SINGLE COMPANY
+http://localhost:3000/companies/1
+
+GET ALL COMPANIES
+http://localhost:3000/companies
+
+FILTER COMPANIES BY NAME
+http://localhost:3000/companies?name=Apple
+http://localhost:3000/companies?name=Apple&name=Microsoft
+
+PAGINATION & LIMIT
+http://localhost:3000/companies?_page=1&_limit=2
+
+SORTING
+http://localhost:3000/companies?_sort=name&_order=asc
+
+GET SINGLE USER
+http://localhost:3000/users/1
+
+GET ALL USERS
+http://localhost:3000/users
+
+GET ALL USERS OF A COMPANY
+http://localhost:3000/companies/1/users
+
+FULL TEXT SEARCH
+http://localhost:3000/users?q=Paul
+http://localhost:3000/companies?q=Microsoft
+
+
