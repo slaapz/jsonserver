@@ -32,5 +32,22 @@
       "age": 45,
       "companyId": "3"
     }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "Apple Inc. is an American multinational techonology company headquarterd in Cupertino, California that desgins, develops, and sells consumer electronics, computer software, and online services. It's online services include the iTunes Store, the iOS App Store, and Mac Apple Store, Apple Music and iCloud"
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "description": "Microsoft Corporation, inocrporated on September 22, 1993, is a technology company. The Company develops, licesnses, and supports a range of software products, services and devices. The Company's segments include Productivity and Business Processes, Intelligent Cloud and More Personal Computing"
+    },
+    {
+      "id": 3,
+      "name": "Google",
+      "description": "Google was founded by Larry Page and Sergey Brin while the were students at Stanford University. The company was officially launched in September, 1998 in a friend's garage. The official mission statement of the company is to 'organize the world's information and make it universally accessible and useful"
+    }
   ]
 }
